@@ -1,0 +1,36 @@
+{
+  "name": "sife_grupo",
+  "plural": "sife_grupo",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "nombre_grupo": {
+      "type": "string"
+    },
+    "cuis": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "string"
+    },
+    "estado": {
+      "type": "number"
+    },
+    "tipo": {
+      "type": "number"
+    },
+    "ACL": {
+      "type": "object"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

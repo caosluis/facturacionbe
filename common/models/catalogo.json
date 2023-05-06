@@ -1,0 +1,22 @@
+{
+  "name": "catalogo",
+  "plural": "catalogos",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "nombrecat": {
+      "type": "string",
+      "required": true
+    },
+    "id": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

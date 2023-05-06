@@ -1,0 +1,31 @@
+{
+  "name": "sife_facturaXsd",
+  "plural": "sife_facturaXsd",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "string",
+      "id": true
+    },
+    "xsd": {
+      "type": "string"
+    },
+    "fecha": {
+      "type": "date"
+    },
+    "descripcion": {
+      "type": "string"
+    },
+    "tipo": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

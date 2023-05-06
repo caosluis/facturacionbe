@@ -1,0 +1,38 @@
+{
+  "name": "sife_respuesta_global",
+  "plural": "sife_respuesta_global",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "nit": {
+      "type": "number",
+      "required": true
+    },
+    "descripcion": {
+      "type": "string"
+    },
+    "sistemaDestino": {
+      "type": "string"
+    },
+    "nombreCola": {
+      "type": "string",
+      "required": true
+    },
+    "fechaCreacion": {
+      "type": "date"
+    },
+    "fechaModificacion": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

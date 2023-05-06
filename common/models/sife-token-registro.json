@@ -1,0 +1,48 @@
+{
+  "name": "sife_token_registro",
+  "plural": "sife_token_registro",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "fechaRegistro": {
+      "type": "date",
+      "required": true
+    },
+    "fechaVigencia": {
+      "type": "date",
+      "required": true
+    },
+    "descripcion": {
+      "type": "string"
+    },
+    "nombreKey": {
+      "type": "string"
+    },
+    "prefijoToken": {
+      "type": "string"
+    },
+    "token": {
+      "type": "string",
+      "required": true
+    },
+    "nombre": {
+      "type": "string"
+    },
+    "estado": {
+      "type": "number"
+    },
+    "nit": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

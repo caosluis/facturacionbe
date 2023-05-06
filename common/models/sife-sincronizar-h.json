@@ -1,0 +1,52 @@
+{
+  "name": "sife_sincronizar_H",
+  "plural": "sife_sincronizar_H",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": false
+  },
+  "properties": {
+    "id": {
+      "type": "string",
+      "id": true
+    },
+    "ServicioWeb": {
+      "type": "string"
+    },
+    "Estado": {
+      "type": "number"
+    },
+    "Mensaje": {
+      "type": "string"
+    },
+    "FechaSincronizacion": {
+      "type": "date"
+    },
+    "CUIS": {
+      "type": "string"
+    },
+    "Nit": {
+      "type": "number"
+    },
+    "codigoAutorizacion": {
+      "type": "string"
+    },
+    "idUsuario": {
+      "type": "string"
+    },
+    "codigoError": {
+      "type": "number"
+    },
+    "codigoSucursal": {
+      "type": "number"
+    },
+    "codigoPDV": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

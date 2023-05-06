@@ -1,0 +1,43 @@
+{
+  "name": "sife_facturaElectronica_lote_estado",
+  "plural": "sife_facturaElectronica_lote_estado",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "string",
+      "id": true
+    },
+    "idlote": {
+      "type": "string",
+      "required": true
+    },
+    "cuis": {
+      "type": "string",
+      "required": true
+    },
+    "estado": {
+      "type": "number",
+      "required": true
+    },
+    "mensaje": {
+      "type": "string"
+    },
+    "codigoRecepcion": {
+      "type": "string"
+    },
+    "fecha": {
+      "type": "date"
+    },
+    "codigoEstado": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

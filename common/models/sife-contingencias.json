@@ -1,0 +1,51 @@
+{
+  "name": "sife_contingencias",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "id": true
+    },
+    "cuis": {
+      "type": "string"
+    },
+    "codigoMotivoEvento": {
+      "type": "number"
+    },
+    "descripcion": {
+      "type": "string"
+    },
+    "fechaHoraInicioEvento": {
+      "type": "string"
+    },
+    "fechaHoraFinEvento": {
+      "type": "string"
+    },
+    "codigoRecepcionEventoSignificativo": {
+      "type": "number"
+    },
+    "mensaje": {
+      "type": "string"
+    },
+    "tiporegistro": {
+      "type": "string"
+    },
+    "nit": {
+      "type": "number"
+    },
+    "codigoSucursal": {
+      "type": "number"
+    },
+    "codigoPDV": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

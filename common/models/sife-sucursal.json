@@ -1,0 +1,66 @@
+{
+  "name": "sife_sucursal",
+  "plural": "sife_sucursal",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "codigoSucursal": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "string"
+    },
+    "estado": {
+      "type": "string"
+    },
+    "direccion": {
+      "type": "string"
+    },
+    "departamento": {
+      "type": "string"
+    },
+    "muncipio": {
+      "type": "string"
+    },
+    "vigencia": {
+      "type": "string"
+    },
+    "nit": {
+      "type": "number"
+    },
+    "cuis": {
+      "type": "string"
+    },
+    "fechaCreacion": {
+      "type": "string"
+    },
+    "fechaModificacion": {
+      "type": "string"
+    },
+    "transaccion": {
+      "type": "string"
+    },
+    "descripcionTransaccion": {
+      "type": "string"
+    },
+    "latitud": {
+      "type": "string"
+    },
+    "longitud": {
+      "type": "string"
+    },
+    "telefono": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,25 @@
+{
+  "name": "sife_facturaElectronica_fe_h",
+  "plural": "sife_facturaElectronica_fe_h",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "cuf": {
+      "type": "string",
+      "id": true
+    },
+    "cufd": {
+      "type": "string"
+    },
+    "estado": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

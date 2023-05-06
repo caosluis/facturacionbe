@@ -1,0 +1,29 @@
+{
+  "name": "sife_sincronizarParametricaTipoHabitacion",
+  "plural": "sife_sincronizarParametricaTipoHabitacion",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": false
+  },
+  "properties": {
+    "codigoClasificador": {
+      "type": "number",
+      "id": true,
+      "required": false
+    },
+    "descripcion": {
+      "type": "string"
+    },
+    "fecha": {
+      "type": "date"
+    },
+    "nit": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

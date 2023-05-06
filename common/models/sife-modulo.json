@@ -1,0 +1,30 @@
+{
+  "name": "sife_modulo",
+  "plural": "sife_modulo",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "nombre_modulo": {
+      "type": "string"
+    },
+    "url_modulo": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "string"
+    },
+    "roles_asignados": {
+      "type": "array"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

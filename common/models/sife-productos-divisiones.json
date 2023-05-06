@@ -1,0 +1,25 @@
+{
+  "name": "sife_productos_divisiones",
+  "plural": "sife_productos_divisiones",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "string",
+      "id": true
+    },
+    "IdDivision": {
+      "type": "string"
+    },
+    "division": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

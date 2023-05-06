@@ -1,0 +1,65 @@
+{
+  "name": "sife_autorizacion",
+  "plural": "sife_autorizacion",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "required": true
+    },
+    "codigoSistema": {
+      "type": "string",
+      "required": true
+    },
+    "codigoModalidad": {
+      "type": "number"
+    },
+    "codigoAmbiente": {
+      "type": "number"
+    },
+    "nit": {
+      "type": "number"
+    },
+    "dependencia": {
+      "type": "string"
+    },
+    "sistema": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "tipoSistema": {
+      "type": "string"
+    },
+    "modalidad": {
+      "type": "string"
+    },
+    "fechaCreacion": {
+      "type": "date"
+    },
+    "fechaModalidad": {
+      "type": "date"
+    },
+    "estado": {
+      "type": "string"
+    },
+    "versionSiat": {
+      "type": "string"
+    },
+    "nroSolicitud": {
+      "type": "string"
+    },
+    "archivo": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

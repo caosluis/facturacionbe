@@ -1,0 +1,27 @@
+{
+  "name": "sife_EstadoServicios",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "codigo": {
+      "type": "number",
+      "id": true
+    },
+    "Time": {
+      "type": "string"
+    },
+    "grupo": {
+      "type": "string"
+    },
+    "status": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

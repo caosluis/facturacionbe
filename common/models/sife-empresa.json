@@ -1,0 +1,37 @@
+{
+  "name": "sife_empresa",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "string",
+      "id": true,
+      "generated": false
+    },
+    "nit": {
+      "type": "string"
+    },
+    "razonSocial": {
+      "type": "string"
+    },
+    "estado": {
+      "type": "string"
+    },
+    "fechaCreacion": {
+      "type": "date"
+    },
+    "fechaModificacion": {
+      "type": "date"
+    },
+    "principal": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

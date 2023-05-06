@@ -1,0 +1,36 @@
+{
+  "name": "sife_cufd_sincroniza_h",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "string",
+      "id": true
+    },
+    "nit": {
+      "type": "string"
+    },
+    "fechaSincronizacion": {
+      "type": "date"
+    },
+    "mensaje": {
+      "type": "string"
+    },
+    "servicioWeb": {
+      "type": "string"
+    },
+    "transaccion": {
+      "type": "string"
+    },
+    "descripcionTransaccion": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

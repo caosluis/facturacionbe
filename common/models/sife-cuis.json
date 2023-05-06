@@ -1,0 +1,49 @@
+{
+  "name": "sife_cuis",
+  "plural": "sife_cuis",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": false
+  },
+  "properties": {
+    "cuis": {
+      "type": "string",
+      "id": true
+    },
+    "cuisVigencia": {
+      "type": "string"
+    },
+    "nit": {
+      "type": "string"
+    },
+    "estado": {
+      "type": "string"
+    },
+    "codigoSucursal": {
+      "type": "number"
+    },
+    "mensaje": {
+      "type": "string"
+    },
+    "codigo": {
+      "type": "number"
+    },
+    "codigoPDV": {
+      "type": "number"
+    },
+    "fechaCreacion": {
+      "type": "date"
+    },
+    "fechaCierre": {
+      "type": "date"
+    },
+    "descripcion": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,25 @@
+{
+  "name": "view_contador_estados_Factura",
+  "plural": "view_contador_estados_Factura",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "cufd": {
+      "type": "string",
+      "id": true
+    },
+    "estado": {
+      "type": "number"
+    },
+    "cantidad": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

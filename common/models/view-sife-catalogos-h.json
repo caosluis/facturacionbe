@@ -1,0 +1,21 @@
+{
+  "name": "view_sife_catalogos_h",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Fecha": {
+      "type": "date",
+      "id": true
+    },
+    "cantidad": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

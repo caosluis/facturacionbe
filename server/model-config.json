@@ -1,0 +1,403 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "db",
+    "public": false
+  },
+  "user": {
+    "dataSource": "mysql",
+    "public": true,
+    "options": {}
+  },
+  "AccessToken": {
+    "dataSource": "mysql",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "mysql",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "mysql",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "mysql",
+    "public": false
+  },
+  "sife_sincronizar": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_sincronizarActividades": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_sincronizarListaLeyendasFactura": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_sincronizarListaMensajesServicios": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_sincronizarListaProductosServicios": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_FechaHora": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_sincronizarParametricaEventosSignificativos": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_sincronizarParametricaMotivoAnulacion": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_sincronizarParametricaPaisOrigen": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_sincronizarParametricaTipoAmbiente": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_sincronizarParametricaTipoComponente": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_sincronizarParametricaTipoDepartamento": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_sincronizarParametricaTipoDocumentoFiscal": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_sincronizarParametricaTipoDocumentoIdentidad": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_global": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_sincronizarParametricaTipoDocumentoSector": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_sincronizarParametricaTipoEmision": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_sincronizarParametricaTipoMetodoPago": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_sincronizarParametricaTipoModalidad": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_sincronizarParametricaTipoMoneda": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_sincronizarParametricaTipoPuntoVenta": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_sincronizarParametricaUnidadMedida": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_FechaHora_H": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_pdv": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_sincronizar_H": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_cuis": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "muleRest": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_sucursal": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_cufd": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_cufd_H": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "view_sife_cufd": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_listas_desplegable": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_firmaDigital": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "view_sife_divisiones_productos": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "view_sife_familia_productos": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "view_sife_grupo_productos": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "view_sife_sector_productos": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "view_sife_subgrupo_productos": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "view_sife_catalogos_h": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_sincronizarListaProductosServiciosNandina": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_facturaElectronica_estado": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_plantillaDocumentoFiscal": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_user_data": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_modulo": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "view_sife_facturas": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "view_sife_facturasTablero": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "view_contador_estados_Factura": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_facturaElectronica_fe": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "sife_facturaElectronica_firma": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "sife_facturaElectronica": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "sife_facturaElectronica_h": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_facturaElectronica_view": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "sife_productos": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "sife_pdv_h": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_productos_familia": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "sife_productos_sector": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "sife_productos_divisiones": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "sife_productos_grupo": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "sife_productos_SubGrupo": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "sife_token": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_token_h": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_empresa": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_token_user": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_sincronizarListaActividadesDocumentoSector": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_sincronizarParametricaTipoHabitacion": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_sincronizarParametricaTiposFactura": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_pdvEstado": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_sucursalEstado": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_facturaOrigen": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_roles": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_EstadoServicios": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "elastic_rest": {
+    "dataSource": null,
+    "public": true
+  },
+  "sife_rangos_contingencias": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_respuesta_global": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_respuesta_diaria": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "sife_contingencias": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_facturaElectronica_offline": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_facturaElectronica_offline_estado": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_facturaElectronica_lote": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_facturaElectronica_lote_estado": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_facturaElectronica_fe_h": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_cufd_sincroniza": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_cufd_sincroniza_h": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_token_registro": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_autorizacion": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_facturaElectronica_offline_proceso": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_dimproducto": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_qr_direccion": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_user_empresas": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "Email": {
+    "dataSource": "emailDs"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "name": "sife_facturaElectronica",
+  "plural": "sife_facturaElectronica",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "cuf": {
+      "type": "string",
+      "id": true
+    },
+    "cuis": {
+      "type": "string"
+    },
+    "fecha": {
+      "type": "date"
+    },
+    "codigoSucursal": {
+      "type": "number"
+    },
+    "codigoDocumentoFiscal": {
+      "type": "number"
+    },
+    "tipoDocumentoSector": {
+      "type": "string"
+    },
+    "codigoDocumentoSector": {
+      "type": "number"
+    },
+    "codigoExcepcionDocumento": {
+      "type": "number"
+    },
+    "nit": {
+      "type": "number"
+    },
+    "numeroFactura": {
+      "type": "number"
+    },
+    "tipoEmision": {
+      "type": "string"
+    },
+    "codRecepcion": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

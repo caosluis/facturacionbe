@@ -1,0 +1,38 @@
+{
+  "name": "sife_sincronizarActividades",
+  "plural": "sife_sincronizarActividades",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": false
+  },
+  "properties": {
+    "id": {
+      "type": "string",
+      "id": true,
+      "required": false
+    },
+    "codigoCaeb": {
+      "type": "number"
+    },
+    "descripcion": {
+      "type": "string"
+    },
+    "fecha": {
+      "type": "string"
+    },
+    "homologasap": {
+      "type": "string"
+    },
+    "tipoActividad": {
+      "type": "string"
+    },
+    "nit": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

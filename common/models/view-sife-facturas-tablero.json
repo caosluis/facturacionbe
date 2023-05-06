@@ -1,0 +1,25 @@
+{
+  "name": "view_sife_facturasTablero",
+  "plural": "view_sife_facturasTablero",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "cuf": {
+      "type": "string",
+      "id": true
+    },
+    "estado": {
+      "type": "number"
+    },
+    "cufd": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

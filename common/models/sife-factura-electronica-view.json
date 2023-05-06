@@ -1,0 +1,55 @@
+{
+  "name": "sife_facturaElectronica_view",
+  "plural": "sife_facturaElectronica_view",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "cuf": {
+      "type": "string",
+      "id": true
+    },
+    "cuis": {
+      "type": "string"
+    },
+    "fecha": {
+      "type": "date"
+    },
+    "codigoSucursal": {
+      "type": "string"
+    },
+    "codigoPDV": {
+      "type": "string"
+    },
+    "codigoDocumentoSector": {
+      "type": "number"
+    },
+    "nit": {
+      "type": "number"
+    },
+    "numeroFactura": {
+      "type": "number"
+    },
+    "codigoEmision": {
+      "type": "string"
+    },
+    "estado": {
+      "type": "number"
+    },
+    "tipoFacturaDocumento": {
+      "type": "number"
+    },
+    "origen": {
+      "type": "number"
+    },
+    "montoTotal": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

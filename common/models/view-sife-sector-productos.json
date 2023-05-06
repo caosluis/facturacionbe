@@ -1,0 +1,25 @@
+{
+  "name": "view_sife_sector_productos",
+  "plural": "view_sife_sector_productos",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "IdSecProducto": {
+      "type": "string",
+      "id": true
+    },
+    "IdDivision": {
+      "type": "string"
+    },
+    "Sector": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

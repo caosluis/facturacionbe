@@ -1,0 +1,55 @@
+{
+  "name": "sife_recepcionSolicitudNuevoValorProducto",
+  "plural": "sife_recepcionSolicitudNuevoValorProducto",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "string",
+      "id": true
+    },
+    "codigoAmbiente": {
+      "type": "number"
+    },
+    "codigoSistema": {
+      "type": "string"
+    },
+    "codigoSucursal": {
+      "type": "number"
+    },
+    "cuis": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "string"
+    },
+    "nit": {
+      "type": "string"
+    },
+    "codigoSolicitud": {
+      "type": "number"
+    },
+    "idUsuario": {
+      "type": "string"
+    },
+    "fecha": {
+      "type": "date"
+    },
+    "codigoMensaje": {
+      "type": "string"
+    },
+    "Mensaje": {
+      "type": "string"
+    },
+    "fechaActualizacion": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

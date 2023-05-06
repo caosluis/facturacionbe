@@ -1,0 +1,42 @@
+{
+  "name": "sife_facturaOrigen",
+  "plural": "sife_facturaOrigen",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "string",
+      "id": true,
+      "generated": false
+    },
+    "origen": {
+      "type": "number",
+      "required": true
+    },
+    "descripcion": {
+      "type": "string"
+    },
+    "nit": {
+      "type": "number"
+    },
+    "nombreCola": {
+      "type": "string"
+    },
+    "fechaCreacion": {
+      "type": "string"
+    },
+    "fechaModificacion": {
+      "type": "string"
+    },
+    "cufPropio": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

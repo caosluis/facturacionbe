@@ -1,0 +1,33 @@
+{
+  "name": "sife_user_grupo",
+  "plural": "sife_user_grupo",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "id_user": {
+      "type": "number"
+    },
+    "id_grupo": {
+      "type": "number"
+    },
+    "estado": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "sifeUserData": {
+      "type": "belongsTo",
+      "model": "sife_user_data",
+      "foreignKey": "id_user"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

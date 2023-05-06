@@ -1,0 +1,31 @@
+{
+  "name": "sife_sincronizarListaProductosServiciosNandina",
+  "plural": "sife_sincronizarListaProductosServiciosNandina",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "string",
+      "id": true
+    },
+    "idProductosServicios": {
+      "type": "string"
+    },
+    "nandina": {
+      "type": "string"
+    },
+    "fecha": {
+      "type": "date"
+    },
+    "nit": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,54 @@
+{
+  "name": "sife_user_data",
+  "plural": "sife_user_data",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "id_user": {
+      "type": "number"
+    },
+    "nombres": {
+      "type": "string"
+    },
+    "apellidos": {
+      "type": "string"
+    },
+    "telefono": {
+      "type": "number"
+    },
+    "division": {
+      "type": "string"
+    },
+    "regional": {
+      "type": "string"
+    },
+    "amercado": {
+      "type": "string"
+    },
+    "empresa": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    },
+    "username": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "sifeUserGrupos": {
+      "type": "hasMany",
+      "model": "sife_user_grupo",
+      "foreignKey": "id_user"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

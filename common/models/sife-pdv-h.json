@@ -1,0 +1,37 @@
+{
+  "name": "sife_pdv_h",
+  "plural": "sife_pdv_h",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "codigoPDV": {
+      "type": "string",
+      "id": true
+    },
+    "cuis": {
+      "type": "string"
+    },
+    "codigoSucursal": {
+      "type": "string"
+    },
+    "codigoTipoPuntoVenta": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "string"
+    },
+    "nit": {
+      "type": "string"
+    },
+    "nombrePuntoVenta": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

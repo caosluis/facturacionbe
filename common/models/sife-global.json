@@ -1,0 +1,35 @@
+{
+  "name": "sife_global",
+  "plural": "sife_globals",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": false
+  },
+  "properties": {
+    "Id": {
+      "type": "number",
+      "id": true,
+      "generated": false
+    },
+    "Grupo": {
+      "type": "string"
+    },
+    "Propiedad": {
+      "type": "string"
+    },
+    "Valor": {
+      "type": "string"
+    },
+    "Nombre": {
+      "type": "string"
+    },
+    "Bloquear": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

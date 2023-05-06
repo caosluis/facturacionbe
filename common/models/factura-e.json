@@ -1,0 +1,49 @@
+{
+  "name": "facturaE",
+  "plural": "facturaE",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "cuf": {
+      "type": "string",
+      "id": true
+    },
+    "jsonFactura": {
+      "type": "object"
+    },
+    "cuis": {
+      "type": "string"
+    },
+    "fecha": {
+      "type": "date"
+    },
+    "codigoSucursal": {
+      "type": "number"
+    },
+    "codigoDocumentoFiscal": {
+      "type": "number"
+    },
+    "tipoDocumentoSector": {
+      "type": "string"
+    },
+    "codigoDocumentoSector": {
+      "type": "number"
+    },
+    "codigoExcepcionDocumento": {
+      "type": "number"
+    },
+    "xmlFacturaFirmada": {
+      "type": "string"
+    },
+    "estado": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

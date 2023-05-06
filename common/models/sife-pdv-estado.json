@@ -1,0 +1,41 @@
+{
+  "name": "sife_pdvEstado",
+  "plural": "sife_pdvEstado",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "string",
+      "id": true,
+      "generated": false
+    },
+    "fechaCreacion": {
+      "type": "date"
+    },
+    "estado": {
+      "type": "string"
+    },
+    "codigoPDV": {
+      "type": "number"
+    },
+    "idPdv": {
+      "type": "string"
+    },
+    "transaccion": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "string"
+    },
+    "cuis": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,33 @@
+{
+  "name": "sife_rangos_contingencias",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "id": true
+    },
+    "grupo": {
+      "type": "number"
+    },
+    "estatus": {
+      "type": "string"
+    },
+    "dfin": {
+      "type": "string"
+    },
+    "dini": {
+      "type": "string"
+    },
+    "cnt": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

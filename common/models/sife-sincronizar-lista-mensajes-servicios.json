@@ -1,0 +1,31 @@
+{
+  "name": "sife_sincronizarListaMensajesServicios",
+  "plural": "sife_sincronizarListaMensajesServicios",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": false
+  },
+  "properties": {
+    "codigoClasificador": {
+      "type": "number",
+      "id": true
+    },
+    "descripcion": {
+      "type": "string"
+    },
+    "fecha": {
+      "type": "string"
+    },
+    "homologasap": {
+      "type": "string"
+    },
+    "nit": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

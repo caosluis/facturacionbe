@@ -1,0 +1,25 @@
+{
+  "name": "sife_listas_desplegable",
+  "plural": "sife_listas_desplegable",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "id": true
+    },
+    "nombre": {
+      "type": "string"
+    },
+    "valores": {
+      "type": "object"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,88 @@
+{
+  "name": "sife_productos",
+  "plural": "sife_productos",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "IdProducto": {
+      "type": "string",
+      "id": true
+    },
+    "Producto": {
+      "type": "string"
+    },
+    "IdProdFabrica": {
+      "type": "string"
+    },
+    "IdFamilia": {
+      "type": "string"
+    },
+    "IdGrupo": {
+      "type": "string"
+    },
+    "IdSubGrupo": {
+      "type": "string"
+    },
+    "IdSecProducto": {
+      "type": "string"
+    },
+    "IdDivision": {
+      "type": "string"
+    },
+    "UMBase": {
+      "type": "string"
+    },
+    "IdSector": {
+      "type": "string"
+    },
+    "nandina": {
+      "type": "string"
+    },
+    "estadoHomologado": {
+      "type": "string"
+    },
+    "Sector": {
+      "type": "string"
+    },
+    "Familia": {
+      "type": "string"
+    },
+    "Grupo": {
+      "type": "string"
+    },
+    "SubGrupo": {
+      "type": "string"
+    },
+    "codigoClasificador": {
+      "type": "string"
+    },
+    "codigoActividad": {
+      "type": "string"
+    },
+    "codigoCatalogo": {
+      "type": "string"
+    },
+    "catalogo": {
+      "type": "string"
+    },
+    "idCatalogo": {
+      "type": "string"
+    },
+    "division": {
+      "type": "string"
+    },
+    "descripcionLeyenda": {
+      "type": "string"
+    },
+    "nit": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

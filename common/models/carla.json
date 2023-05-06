@@ -1,0 +1,31 @@
+{
+  "name": "carla",
+  "plural": "carlas",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "pepe": {
+      "type": "string",
+      "required": true
+    },
+    "pepe2": {
+      "type": "string",
+      "required": true
+    },
+    "pepe3": {
+      "type": "string",
+      "required": true
+    },
+    "pepe4": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

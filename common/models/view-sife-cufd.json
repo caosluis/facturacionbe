@@ -1,0 +1,49 @@
+{
+  "name": "view_sife_cufd",
+  "plural": "view_sife_cufd",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "fechaVigencia": {
+      "type": "string"
+    },
+    "cufd": {
+      "type": "string",
+      "id": true
+    },
+    "empresa": {
+      "type": "string"
+    },
+    "nit": {
+      "type": "string"
+    },
+    "nombrePuntoVenta": {
+      "type": "string"
+    },
+    "descripcionPDV": {
+      "type": "string"
+    },
+    "codigoPDV": {
+      "type": "string"
+    },
+    "sucursal": {
+      "type": "string"
+    },
+    "cuis": {
+      "type": "string"
+    },
+    "listaCodigosRespuestas": {
+      "type": "string"
+    },
+    "codigoTipoPuntoVenta": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

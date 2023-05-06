@@ -1,0 +1,55 @@
+{
+  "name": "sife_firmaDigital",
+  "plural": "sife_firmaDigital",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "id": true
+    },
+    "idUsuario": {
+      "type": "string"
+    },
+    "firma": {
+      "type": "string"
+    },
+    "fechaRegistro": {
+      "type": "date"
+    },
+    "fechaVigencia": {
+      "type": "date"
+    },
+    "tipo": {
+      "type": "string"
+    },
+    "estado": {
+      "type": "number"
+    },
+    "empresa": {
+      "type": "string"
+    },
+    "sucursal": {
+      "type": "number"
+    },
+    "descripcion": {
+      "type": "string"
+    },
+    "fechaRevocacion": {
+      "type": "string"
+    },
+    "razonRevocacion": {
+      "type": "string"
+    },
+    "revocado": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,82 @@
+{
+  "name": "sife_facturaElectronica_offline",
+  "plural": "sife_facturaElectronica_offline",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "cuf": {
+      "type": "string",
+      "id": true
+    },
+    "jsonFactura": {
+      "type": "object"
+    },
+    "cuis": {
+      "type": "string"
+    },
+    "fecha": {
+      "type": "date"
+    },
+    "codigoSucursal": {
+      "type": "number"
+    },
+    "codigoDocumentoSector": {
+      "type": "number"
+    },
+    "tipoFacturaDocumento": {
+      "type": "number"
+    },
+    "estado": {
+      "type": "string"
+    },
+    "xmlFacturaFirmada": {
+      "type": "string"
+    },
+    "nit": {
+      "type": "number"
+    },
+    "numeroFactura": {
+      "type": "number"
+    },
+    "codigoEmision": {
+      "type": "number"
+    },
+    "cufd": {
+      "type": "string"
+    },
+    "codigoPuntoVenta": {
+      "type": "number"
+    },
+    "origen": {
+      "type": "number"
+    },
+    "fechaEmision": {
+      "type": "date"
+    },
+    "codigoRecepcionEventoSignificativo": {
+      "type": "number"
+    },
+    "codigoClasificadorEvento": {
+      "type": "number"
+    },
+    "idlote": {
+      "type": "string"
+    },
+    "numeroArchivo": {
+      "type": "string"
+    },
+    "cafc": {
+      "type": "string"
+    },
+    "montoTotal": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,37 @@
+{
+  "name": "sife_productos_SubGrupo",
+  "plural": "sife_productos_SubGrupo",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "string",
+      "id": true
+    },
+    "IdDivision": {
+      "type": "string"
+    },
+    "IdSecProducto": {
+      "type": "string"
+    },
+    "IdFamilia": {
+      "type": "string"
+    },
+    "IdGrupo": {
+      "type": "string"
+    },
+    "IdSubGrupo": {
+      "type": "string"
+    },
+    "SubGrupo": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

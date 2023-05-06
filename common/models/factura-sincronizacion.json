@@ -1,0 +1,44 @@
+{
+  "name": "FacturaSincronizacion",
+  "plural": "FacturaSincronizacion",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": false
+  },
+  "properties": {
+    "id": {
+      "type": "string",
+      "id": true,
+      "generated": false
+    },
+    "ServicioWeb": {
+      "type": "string",
+      "required": true
+    },
+    "Estado": {
+      "type": "number",
+      "required": true
+    },
+    "Mensaje": {
+      "type": "string",
+      "required": true
+    },
+    "FechaSincronizacion": {
+      "type": "date",
+      "required": true
+    },
+    "CUIS": {
+      "type": "string",
+      "required": true
+    },
+    "Nit": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,52 @@
+{
+  "name": "sife_cufd_H",
+  "plural": "sife_cufd_H",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "cufd": {
+      "type": "string",
+      "id": true
+    },
+    "cuis": {
+      "type": "string"
+    },
+    "codigoPDV": {
+      "type": "string"
+    },
+    "fechaVigencia": {
+      "type": "date"
+    },
+    "idUsuario": {
+      "type": "string"
+    },
+    "fechaCreacion": {
+      "type": "date"
+    },
+    "transaccion": {
+      "type": "string"
+    },
+    "listaCodigosRespuestas": {
+      "type": "string"
+    },
+    "nit": {
+      "type": "number"
+    },
+    "codigoSucursal": {
+      "type": "number"
+    },
+    "codigoControl": {
+      "type": "string"
+    },
+    "direccion": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

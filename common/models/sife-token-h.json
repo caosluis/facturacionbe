@@ -1,0 +1,69 @@
+{
+  "name": "sife_token_h",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "string",
+      "id": true
+    },
+    "fechaCreacion": {
+      "type": "date"
+    },
+    "fechaModificacion": {
+      "type": "date"
+    },
+    "nit": {
+      "type": "string"
+    },
+    "login": {
+      "type": "string"
+    },
+    "client": {
+      "type": "string"
+    },
+    "ip": {
+      "type": "string"
+    },
+    "tipoClienteId": {
+      "type": "string"
+    },
+    "tipoUsuarioId": {
+      "type": "string"
+    },
+    "mensaje": {
+      "type": "string"
+    },
+    "codigo": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "string"
+    },
+    "descripcionUi": {
+      "type": "string"
+    },
+    "estadoId": {
+      "type": "string"
+    },
+    "siglaSistema": {
+      "type": "string"
+    },
+    "tipoDestinoId": {
+      "type": "string"
+    },
+    "ok": {
+      "type": "string"
+    },
+    "token": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

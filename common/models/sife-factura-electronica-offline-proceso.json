@@ -1,0 +1,33 @@
+{
+  "name": "sife_facturaElectronica_offline_proceso",
+  "plural": "sife_facturaElectronica_offline_procesos",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "eventoSignificativo": {
+      "type": "string"
+    },
+    "empaquetado": {
+      "type": "string"
+    },
+    "envio": {
+      "type": "string"
+    },
+    "validacion": {
+      "type": "string"
+    },
+    "fecha": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

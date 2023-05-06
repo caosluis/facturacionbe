@@ -1,0 +1,55 @@
+{
+  "name": "sife_respuesta_diaria",
+  "plural": "sife_respuesta_diaria",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "cuis": {
+      "type": "string",
+      "id": true
+    },
+    "cufd": {
+      "type": "string"
+    },
+    "nit": {
+      "type": "number"
+    },
+    "codigoSucursal": {
+      "type": "number"
+    },
+    "codigoPuntoVenta": {
+      "type": "number"
+    },
+    "fechaVigencia": {
+      "type": "date"
+    },
+    "fechaCreacion": {
+      "type": "date"
+    },
+    "codigoControl": {
+      "type": "string"
+    },
+    "direccion": {
+      "type": "string"
+    },
+    "empresa": {
+      "type": "object"
+    },
+    "sucursal": {
+      "type": "object"
+    },
+    "puntoVenta": {
+      "type": "object"
+    },
+    "tipo": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

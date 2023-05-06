@@ -1,0 +1,35 @@
+{
+  "name": "sife_sincronizarListaActividadesDocumentoSector",
+  "plural": "sife_sincronizarListaActividadesDocumentoSector",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": false
+  },
+  "properties": {
+    "id": {
+      "type": "string",
+      "id": true,
+      "required": false
+    },
+    "codigoActividad": {
+      "type": "string"
+    },
+    "codigoDocumentoSector": {
+      "type": "number"
+    },
+    "tipoDocumentoSector": {
+      "type": "string"
+    },
+    "fecha": {
+      "type": "date"
+    },
+    "nit": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

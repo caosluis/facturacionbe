@@ -1,0 +1,64 @@
+{
+  "name": "view_sife_facturas",
+  "plural": "view_sife_facturas",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "cuf": {
+      "type": "string",
+      "id": true
+    },
+    "cuis": {
+      "type": "string"
+    },
+    "fecha": {
+      "type": "date"
+    },
+    "codigoSucursal": {
+      "type": "number"
+    },
+    "codigoDocumentoFiscal": {
+      "type": "number"
+    },
+    "tipoDocumentoSector": {
+      "type": "string"
+    },
+    "codigoDocumentoSector": {
+      "type": "number"
+    },
+    "codigoExcepcionDocumento": {
+      "type": "number"
+    },
+    "estado": {
+      "type": "string"
+    },
+    "DocumentoFical": {
+      "type": "string"
+    },
+    "DocumentoSector": {
+      "type": "string"
+    },
+    "sucursal": {
+      "type": "string"
+    },
+    "empresa": {
+      "type": "string"
+    },
+    "numeroFactura": {
+      "type": "string"
+    },
+    "cufd": {
+      "type": "string"
+    },
+    "pdv": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

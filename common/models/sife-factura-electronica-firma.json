@@ -1,0 +1,25 @@
+{
+  "name": "sife_facturaElectronica_firma",
+  "plural": "sife_facturaElectronica_firma",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "cuf": {
+      "type": "string",
+      "id": true
+    },
+    "jsonFactura": {
+      "type": "object"
+    },
+    "xmlFacturaFirmada": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

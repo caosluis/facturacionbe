@@ -1,0 +1,34 @@
+{
+  "name": "sife_plantillaDocumentoFiscal",
+  "plural": "sife_plantillaDocumentoFiscal",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "id": true
+    },
+    "TipoDocumentoFiscal": {
+      "type": "string"
+    },
+    "codigoClasificador": {
+      "type": "number"
+    },
+    "plantilla": {
+      "type": "object"
+    },
+    "estado": {
+      "type": "number"
+    },
+    "url_qr": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

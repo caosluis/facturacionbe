@@ -1,0 +1,77 @@
+{
+  "name": "sife_facturaElectronica_lote",
+  "plural": "sife_facturaElectronica_lote",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "string",
+      "id": true
+    },
+    "cuis": {
+      "type": "string",
+      "required": true
+    },
+    "nit": {
+      "type": "number",
+      "required": true
+    },
+    "codigoSucursal": {
+      "type": "number"
+    },
+    "codigoPuntoVenta": {
+      "type": "number"
+    },
+    "codigoDocumentoSector": {
+      "type": "number"
+    },
+    "tipoFacturaDocumento": {
+      "type": "number"
+    },
+    "codigoEvento": {
+      "type": "string"
+    },
+    "cantidadFacturas": {
+      "type": "number"
+    },
+    "archivo": {
+      "type": "string",
+      "required": true
+    },
+    "hashArchivo": {
+      "type": "string",
+      "required": true
+    },
+    "cufd": {
+      "type": "string"
+    },
+    "estado": {
+      "type": "string"
+    },
+    "transaccion": {
+      "type": "string"
+    },
+    "descripcionTransaccion": {
+      "type": "string"
+    },
+    "fecha": {
+      "type": "date"
+    },
+    "codigoRecepcion": {
+      "type": "string"
+    },
+    "cafc": {
+      "type": "string"
+    },
+    "codigoClasificadorEvento": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

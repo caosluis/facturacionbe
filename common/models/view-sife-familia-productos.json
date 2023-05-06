@@ -1,0 +1,29 @@
+{
+  "name": "view_sife_familia_productos",
+  "plural": "view_sife_familia_productos",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "IdDivision": {
+      "type": "string"
+    },
+    "IdSecProducto": {
+      "type": "string"
+    },
+    "IdFamilia": {
+      "type": "string",
+      "id": true
+    },
+    "Familia": {
+      "type": "string",
+      "id": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

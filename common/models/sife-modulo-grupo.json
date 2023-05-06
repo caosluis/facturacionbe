@@ -1,0 +1,27 @@
+{
+  "name": "sife_modulo_grupo",
+  "plural": "sife_modulo_grupo",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "id_grupo": {
+      "type": "number"
+    },
+    "id_modulo": {
+      "type": "number"
+    },
+    "estado": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

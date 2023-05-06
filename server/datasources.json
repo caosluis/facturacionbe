@@ -1,0 +1,46 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mysql": {
+    "host": "swarm-qas.hansa.com.bo",
+    "port": 34,
+    "url": "",
+    "database": "sifedb",
+    "password": "sample",
+    "name": "mysql",
+    "user": "root",
+    "connector": "mysql",
+    "connectionTimeout": 30000
+  },
+  "mongo": {
+    "host": "swarm-qas.hansa.com.bo",
+    "port": 33,
+    "url": "",
+    "database": "sifedb",
+    "password": "admin",
+    "name": "mongo",
+    "user": "admin",
+    "connector": "mongodb"
+  },
+  "emailDs": {
+    "name": "emailDs",
+    "connector": "mail",
+    "transports": [
+      {
+        "type": "smtp",
+        "host": "192.168.1.121",
+        "secure": false,
+        "port": 25,
+        "tls": {
+          "rejectUnauthorized": false
+        },
+        "auth": {
+          "user": "useradmcrmmail",
+          "pass": "sdgsfg3423455gsD2311"
+        }
+      }
+    ]
+  }
+}
