@@ -1,0 +1,62 @@
+{
+  "name": "sife_actualizacion",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "codigoSistema": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "fechaCreacion": {
+      "type": "string"
+    },
+    "fechaModificacion": {
+      "type": "string"
+    },
+    "sucursalCuisCierre": {
+      "type": "number"
+    },
+    "sucursalCuisSolicita": {
+      "type": "string"
+    },
+    "sucursalCopia": {
+      "type": "number"
+    },
+    "pdvCuisCierre": {
+      "type": "number"
+    },
+    "pdvCierre": {
+      "type": "number"
+    },
+    "pdvCrear": {
+      "type": "number"
+    },
+    "pdvCuisSolicita": {
+      "type": "number"
+    },
+    "sincronizarCatalogos": {
+      "type": "number"
+    },
+    "cufdSolicitar": {
+      "type": "number"
+    },
+    "fechaSolicitar": {
+      "type": "number"
+    },
+    "estado": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

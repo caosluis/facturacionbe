@@ -399,5 +399,13 @@
   },
   "Email": {
     "dataSource": "emailDs"
+  },
+  "sife_certificados": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "sife_actualizacion": {
+    "dataSource": "mysql",
+    "public": true
   }
 }

@@ -4,24 +4,24 @@
     "connector": "memory"
   },
   "mysql": {
-    "host": "swarm-qas.hansa.com.bo",
-    "port": 34,
+    "host": "localhost",
+    "port": 3306,
     "url": "",
     "database": "sifedb",
-    "password": "sample",
+    "password": "9%9vLJ2e1@i3",
     "name": "mysql",
     "user": "root",
     "connector": "mysql",
     "connectionTimeout": 30000
   },
   "mongo": {
-    "host": "swarm-qas.hansa.com.bo",
-    "port": 33,
+    "host": "localhost",
+    "port": 27017,
     "url": "",
     "database": "sifedb",
-    "password": "admin",
+    "password": "",
     "name": "mongo",
-    "user": "admin",
+    "user": "",
     "connector": "mongodb"
   },
   "emailDs": {
